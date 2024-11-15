@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Aulas de HTML e CSS">
+    <meta name="author" content="Adalberto">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir este site em vários dipositivos</p>
+    <P>Ou aumente ou diminua o tamanho do seu navegador</P>
+
+    <picture>
+        <source media="(max-width: 800px)" srcset="imagens\zzfoto400.png" type="image/png">
+        <source media="(max-width: 1200px)" srcset="imagens\zzfoto600.png" type="image/png">
+        <img src="imagens\zzfoto800.png" alt="Imagen flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio MP3 / WAV / OGG</h1>
+    <p>Vamos aprender a reproduzir audio</p>
+
+    <!--se não souber o tipo do arquivo use os 3
+        se quiser o controle coloque preload = metadata e
+        controls autoplay, o loop é pra começar novamente-->
+    <audio autoplay loop>
+        <source src="midia/01 - Prowler.mp3" type="audio/mpeg">
+        <source src="midia/01 - Prowler.ogg" type="audio/ogg">
+        <source src="midia/01 - Prowler.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/01 - Prowler.mp3"> Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+    
+</body>
+</html>
