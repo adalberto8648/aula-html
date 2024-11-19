@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Aulas de HTMl e CSS">
+    <meta name="author" content="Adalberto">
+    <link rel="shortcut icon" href="../zzIconstoc-Vintage-Social-Html-5.ico" type="image/x-icon">
     <title>Exercício ChatGPT - 001</title>
 </head>
 <body>
@@ -47,39 +50,44 @@
 <hr>
     <h2>Listas</h2>
 
-    <h2>lista ordenada com ol</h2>
-        <ol type="1" start="2">
-            <li>primeira</li>
-            <li>segunda</li>
-            <li>terceira</li>
-        </ol>
+        <p>lista ordenada com ol</p>
+            <ol type="1" start="2">
+                <li>primeira</li>
+                <li>segunda</li>
+                <li>terceira</li>
+            </ol>
 
-    <h2>lista não ordenada circle, disc, square</h2>
-        <ul type="square">
-            <li>primeira</li>
-                <ul>
-                    <li>primeira</li>
-                    <li>segunda</li>
-                    <li>terceira</li>
-                </ul>
-            <li>segunda</li>
-                <ul type="disc">
-                    <li>primeira</li>
-                    <li>segunda</li>
-                    <li>terceira</li>
-                </ul>
-        </ul>
-
-    <h2>Links</h2>
-        <p><u>href="https://chatgpt.com..."</u> é o link, <u>target="_blank"</u>abre nova aba <a href="https://chatgpt.com/c/6738d40e-2938-8012-88f0-a219758190f9" target="_blank">ChatGPT no HTML</a> do link externo</p>
+        <p>lista não ordenada circle, disc, square</p>
+            <ul type="circle">
+                <li>primeira</li>
+                    <ul type="disc">
+                        <li>primeira</li>
+                        <li>segunda</li>
+                        <li>terceira</li>
+                    </ul>
+                <li>segunda</li>
+                    <ul type="square">
+                        <li>primeira</li>
+                        <li>segunda</li>
+                        <li>terceira</li>
+                    </ul>
+            </ul>
+            <hr>
+    <h2>Links com u sublinhar</h2>
+        <p><u>href="https://chatgpt.com..."</u> é o link, <u>target="_blank"</u> abre nova aba <a href="https://github.com/adalberto8648" target="_blank">Acesse o GitHub</a> do link externo</p>
 
         <p><u>href="../aula-links/links.html"</u> é o link, <u>target="_blank"</u> abre nova aba <a href="../aula-links/links.html" target="_blank">aula-links</a> do link interno em pasta</p>
     
-        <p><u>href="pasta/link.interno"</u> é o link, target"_blank" abre nova aba <a href="listas.htm" target="_blank">lista.html</a> de dentro de pasta junto</p>
+        <p><u>href="pasta/link.interno"</u> é o link, <u>target"_blank"</u> abre nova aba <a href="listas.htm" target="_blank">lista.html</a> junto</p>
 
+        <p><u>Links para download em lista, ul e li</u></p>
+            <ul>
+                <li><a href="zz03 - Outubro - Claro.pdf" download>Baixar arquivo pdf</a></li>
+                <li><a href="zz03 - Outubro - Claro.rar" download>Baixar pdf compactado em RAR</a></li>
+            </ul>
 
-    <h1>Imagem solicitada</h1>
-    <img width="500" src="../aula-video/2Captura de tela 2024-11-17 145913.jpg" alt="Foto de limão">
+        <p><u>img</u> - width="500" pix altura - height="300" largura - src="../aula-video/2Captura de tela 2024-11-17 145913.jpg" local - alt="Foto de limão" deficiente visual</p>
+        <img src="../aula-video/2Captura de tela 2024-11-17 145913.jpg" width="500" height="300" alt="Foto de limão">
 
 </body>
 </html>
