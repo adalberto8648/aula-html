@@ -15,9 +15,10 @@
     <P>Ou aumente ou diminua o tamanho do seu navegador</P>
 
     <picture>
-        <source media="(max-width: 800px)" srcset="imagens\zzfoto400.png" type="image/png">
-        <source media="(max-width: 1200px)" srcset="imagens\zzfoto600.png" type="image/png">
-        <img src="imagens\zzfoto800.png" alt="Imagen flexível">
+        <source media="(max-width: 800px)" srcset="imagens/zzfoto400.png" sizes="100vw" type="image/png">
+        <source media="(max-width: 1200px)" srcset="imagens/zzfoto600.png" sizes="50vw" type="image/png">
+        <source media="(min-width: 1201px)" srcset="imagens/zzfoto800.png" sizes="33vw" type="image/png">
+        <img src="imagens/zzfoto800.png" alt="Imagen flexível">
     </picture>
 
     <h1>Reproduzindo Áudio MP3 / WAV / OGG</h1>
@@ -31,11 +32,10 @@
         <source src="midia/01 - Prowler.ogg" type="audio/ogg">
         <source src="midia/01 - Prowler.wav" type="audio/wav">
         <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/01 - Prowler.mp3"> Clique aqui para baixar o arquivo MP3</a></p>
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/01 - Prowler.mp3"> Clique aqui para baixar o arquivo MP3</a></p>
     </audio>
     
     <h1>Reproduzindo Vídeo MP4, MKV, WEBM, OGV </h1>
 
-    <p>Voltar para <a href="../aula-links/links.html" rel="prev">link</a></p>
-    <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/01 - Prowler.mp3"> Clique aqui para baixar o arquivo MP3</a></p>
 </body>
 </html>
