@@ -170,35 +170,63 @@
 
     <h2><u>form</u> - Formulário tem label, input</h2>
         <p><u><strong>types do input</strong></u> = nome, email, senha</p>
-        <form>
-        <p><u><strong>label</strong></u> - Tem for=" "</p>
-        <p><u><strong>input</strong></u> - Tem id=" ", type=" ", placeholder=" ", required</p>
         
-            <label for="nome">Nome</label>
-            <input type="text" id="nome" placeholder="Digite seu nome aqui" required >
-            <br><br>
-            <label for="email">E-mail</label>
-            <input type="email" id="email" placeholder="Digite seu e-mail" required>
-            <br><br>
-            <label for="senha">Senha</label>
-            <input type="text" id="senha" placeholder="Digite uma senha" required>
-            <br><br>
+        <form>
+            <p><u><strong>label</strong></u> - Tem for=" "</p>
+            <p><u><strong>input</strong></u> - Tem id=" ", type=" ", placeholder=" ", required</p>
             
-            <p><u><strong>Input type="radio"</strong></u> - tem name=" ", id=" ", value=" "</p>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Digite seu nome aqui" required >
+                <br><br>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="Digite seu e-mail" required>
+                <br><br>
+                <label for="senha">Senha</label>
+                <input type="text" id="senha" placeholder="Digite uma senha" required>
+                <br><br>
+                
+                <p><u><strong>Input type="radio"</strong></u> - tem name=" ", id=" ", value=" "</p>
+                <input type="radio" name="animal" id="dog" value="Cachorro">
+                <label for="dog">Cachorro</label>
+                <input type="radio" name="animal" id="cat" value="Gato">
+                <label for="cat">Gato</label>
+                <input type="radio" name="animal" id="bird" value="Passarinho">
+                <label for="bird">Passarinho</label>
+                <br><br>
 
-            <input type="radio" name="animal" id="dog" value="Cachorro">
-            <label for="dog">Cachorro</label>
-            <input type="radio" name="animal" id="cat" value="Gato">
-            <label for="cat">Gato</label>
-            <input type="radio" name="animal" id="bird" value="Passarinho">
-            <label for="bird">Passarinho</label>
-            <br><br>
+                <p><u><strong>Input type="checkbox"</strong></u> - tem name=" ", id=" ", value=" "</p>
+                <input type="checkbox" name="cachorro" id="dog" value="Cachorro">
+                <label for="dog">Cachorro</label>
+                <br>
+                <input type="checkbox" name="gato" id="cat">
+                <label for="cat">Gato</label>
+                <br>
+                <input type="checkbox" name="passarinho" id="bird">
+                <label for="bird">Passarinho</label>
 
+                <p><u><strong>Select name=" "</strong></u> - Tem option pra cada item, select disabled no primeiro e value no resto</p>
+                <select name="seleção">
+                    <option selected disabled value="">Selecione uma cor</option>
+                    <option value="vermelho">Vermelho</option>
+                    <option value="azul">Azul</option>
+                    <option value="verde">Verde</option>
+                </select>
+                <br><br>
 
-            
-            <p><u><strong>Input type="submit"</strong></u> - tem value=" " e required</p>
-            <input type="submit" value="Enviar Formulário" required>
+                <p><u><Strong>textarea</Strong></u> - Tem name=" ", row=" ", cols=" " e placeholder=" "</p>
+                <textarea name="mensagem" rows="10" cols="50" placeholder="Digite sua mensagem"></textarea>
+                <br><br>
+
+                <p><u><strong>Input type="submit"</strong></u> - Tem value=" " e required</p>
+                <input type="submit" value="Enviar Formulário" required>
+                <br><br>
+
+                <p><u><strong>button</strong> - Dentro do form funciona igual o submit</u></p>
+                <button>Enviar dados por aqui</button>
         </form>
+
+            <p><u><strong>button</strong> - Fora do form é diferente do submit</u></p>
+            <button>Enviar dados por aqui</button>
 
 </body>
 </html>
