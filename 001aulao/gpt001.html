@@ -87,7 +87,6 @@
         <p><u>Links para download em lista, ul e li</u></p>
             <ul>
                 <li><a href="zz03 - Outubro - Claro.pdf" download>Baixar arquivo pdf</a></li>
-                <li><a href="zz03 - Outubro - Claro.rar" download>Baixar pdf compactado em RAR</a></li>
             </ul>
 
         <p>Montando mapa com link</p>
@@ -105,13 +104,28 @@
             <img src="mapa02.png" alt="">
             <img src="mapa04.png" alt="">
 
-        <p><u>img</u> - width="500" pix altura - height="300" largura - src="../aula-video/2Captura de tela 2024-11-17 145913.jpg" local - alt="Foto de limão" deficiente visual</p>
-        <img src="2Captura de tela 2024-11-17 145913.jpg" width="500" height="300" alt="Foto de limão">
-        <hr>
+        <p><u>picture</u> - imagem expansível, source meida=" ", srcset=" ", sizes=" ", type=" " e img com src=" " e alt=" "</p>
+        <picture>
+            <source media="(max-width: 800px)" srcset="zzfoto400.png" sizes="100vw" type="image/png">
+            <source media="(max-width: 1200px)" srcset="zzfoto600.png" sizes="50vw" type="image/png">
+            <source media="(min-width: 1201px)" srcset="zzfoto800.png" sizes="33vw" type="image/png">
+            <img src="zzfoto800.png" alt="Imagem flexível">
+        </picture>
+
+        <p><u>picture</u> - imagem completando, source meida=" ", srcset=" ", sizes=" ", type=" " e img com src=" " e alt=" "</p>
+        <picture>
+            <source media="(max-width: 800px)" srcset="zzfoto300.png" sizes="100vw" type="image/png">
+            <source media="(max-width: 1200px)" srcset="zzfoto500.png" sizes="50vw" type="image/png">
+            <source media="(min-width: 1201px)" srcset="zzfoto700.png" sizes="33vw" type="image/png">
+            <img src="zzfoto700.png" alt="Imagem flexível">
+        </picture>
+
+
 
     <h2>Minhas redes Sociais com lista ul, li ou p</h2>
+        <p><u>img</u> - src=" ", width="200", alt="Minha foto" deficiente visual</p>
         <p>Quem sou eu</p>
-        <img src="zzfoto400.png" alt="Minha Foto">
+        <img src="zzfoto200.png" width="200" alt="Minha Foto">
         
         <ul>
             <li>Fale comigo pelo <a href="https://github.com/adalberto8648" target="_blank" >GitHub</a></li>
@@ -142,14 +156,10 @@
         </table>
         <hr>
 
-    <h2>Videos</h2>
-        <p>Tem width, poster, controls, e cada video o source src=</p>
+    <h2>Videos - Tem width=" ", poster=" ", controls, source src=" " pra cada vídeo</h2>
 
-        <video width="500" poster="2Captura de tela 2024-11-17 145913.jpg" controls>
-            <source src="meu-video.mkv" type="video/mp4">
+        <video width="100%" poster="2Captura de tela 2024-11-17 145913.jpg" controls>
             <source src="meu-video.mp4" type="video/mp4">
-            <source src="meu-video.ogv" type="video/ogg">
-            <source src="meu-video.webm" type="video/webm">
 
             <p>Infelismente seu navegador não reproduziu o vídeo. clique <a href="meu-video.mp4">aqui</a> para baixar o arquivo mp4</p>
         </video>
@@ -227,6 +237,14 @@
 
             <p><u><strong>button</strong> - Fora do form é diferente do submit</u></p>
             <button>Enviar dados por aqui</button>
+            <hr>
+
+    <h2><u>audio controls, autoplay é opcional</u> - Tem a source src=" " e type=" "</h2>
+        <audio controls>
+            <source src="01 - Prowler.mp3" type="audio/mp3">
+        </audio>
+        <hr>
+        
 
 </body>
 </html>
