@@ -7,9 +7,46 @@
     <meta name="author" content="Adalberto">
     <link rel="shortcut icon" href="../zzIconstoc-Vintage-Social-Html-5.ico" type="image/x-icon">
     <title>Exercício ChatGPT - 001</title>
-</head>
-<body>
 
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+        .topo{
+            background-color: gray;
+            padding: 20px 16px;
+            text-align: center;
+        }
+        .menu{
+            background-color: #333;
+            overflow: hidden;
+        }
+        .menu a{
+            color: white;
+            padding: 14px 16px;
+            float: left;
+            display: block;
+            text-decoration: none;
+        }
+        .coluna-50{
+            background-color: white;
+            float: left;
+            width: 50%;
+            padding: 15px;
+        }
+        .rodape{
+            background-color: rgb(145, 255, 0);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
     <h2>Citações com negrito (strong), itálico (em) e mark</h2>
         <strong><em><mark>abbr title</mark></em></strong>="HyperText Markup" - É usado para abreviações - <abbr title="HyperText Markup">HTML</abbr>
 
@@ -119,8 +156,6 @@
             <source media="(min-width: 1201px)" srcset="zzfoto700.png" sizes="33vw" type="image/png">
             <img src="zzfoto700.png" alt="Imagem flexível">
         </picture>
-
-
 
     <h2>Minhas redes Sociais com lista ul, li ou p</h2>
         <p><u>img</u> - src=" ", width="200", alt="Minha foto" deficiente visual</p>
@@ -240,11 +275,39 @@
             <hr>
 
     <h2><u>audio controls, autoplay é opcional</u> - Tem a source src=" " e type=" "</h2>
+
         <audio controls>
             <source src="01 - Prowler.mp3" type="audio/mp3">
         </audio>
         <hr>
         
+    <h2>divi class=" " é genérico - Tem criação de menu e mudar para header = topo, menu = nav ou menu, coluna-50 = section</h2>
+
+        <header class="topo">
+            <h1>Topo</h1>
+            <p>Aqui a parte do Topo</p>
+        </header>
+
+        <nav class="menu">
+            <a href="listas.htm">Link</a>
+            <a href="listas.htm">Link</a>
+            <a href="listas.htm">Link</a>
+            <a href="listas.htm">Link</a>
+        </nav>
+
+        <section class="coluna-50">
+            <h2>Coluna 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere unde nesciunt, maiores tenetur sapiente magni. Aspernatur natus animi autem pariatur. At, doloribus quasi. Recusandae voluptates, exercitationem aliquid accusamus voluptate inventore!</p>
+        </section>
+            
+        <section class="coluna-50">
+            <h2>Coluna 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere unde nesciunt, maiores tenetur sapiente magni. Aspernatur natus animi autem pariatur. At, doloribus quasi. Recusandae voluptates, exercitationem aliquid accusamus voluptate inventore!</p>
+        </section>
+
+        <footer class="rodape">
+            <p>Aqui é o rodapé</p>
+        </footer>
 
 </body>
 </html>
