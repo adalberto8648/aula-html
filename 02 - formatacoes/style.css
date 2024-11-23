@@ -1,0 +1,14 @@
+body{
+    background-color: cadetblue;
+}
+.titulo{
+    padding: 10px;
+    background-color:darkgreen;
+    color: blanchedalmond;
+    text-align: center;
+}
+.secao{
+    padding: 20px;
+    background-color: burlywood;
+    color: rgb(25, 37, 206);
+}
