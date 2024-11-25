@@ -1,12 +1,31 @@
-<style>
-        mark {
-            background-color: lime;
-        }
-    </style>
+
+body{
+    text-align: right left center justify; /* direita esquerda centro estica*/
+    
+    color: aquamarine;    
+    
+    background-color: lime; /* cor de fundo*/
+    background-image: url(""); /* imagem de fundo */
+    background-size: 100%; /* objeto ocupa todo espaço*/
+    background-position: center; /* centraliza o objeto*/
+    background: url("") center lime; /* juntamos 3 sem o size*/
+
+    border: 1px; /* espessura da borda*/
+    border-radius: 10px; /* bordas arredondadas*/
+    border: solid dotted dashed double; /* sólido pontos traços duplas*/
+    border: black; /* cor da borda*/
+    border-top: 5px solid aqua; /* cor da borda do topo*/
+    border-left: 5px solid aquamarine; /* cor da borda da esquerdo*/
+    border-right: 5px solid bisque; /* cor da borda da direito*/
+    border-bottom: 5px solid chocolate; /* cor da borda de baixo*/
+
+    margin-top: 50px; /* afastar do topo*/
+    margin-right: 50px; /* afata da direita*/
+    margin-bottom: 50px; /* afasta abaixo*/
+    margin-left: 50px; /* afasta da esquerda*/
+    margin: 50px 50px 50px 50px /* topo, direita, abaixo, esquerda*/
 
 
-    <style>
-    del {
-        background-color: lime;
-    }
-</style>
+    
+    
+}
