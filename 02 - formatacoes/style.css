@@ -2,26 +2,28 @@ body{
     background-color: cadetblue;
 }
 .titulo{
-    padding: 10px;
-    background-color:darkgreen;
-    color: blanchedalmond;
     text-align: center;
+    color: blanchedalmond;
+    background-color:darkgreen;
+    padding: 10px;
 }
 .secao{
-    padding: 20px;
-    background-color: burlywood;
     color: rgb(25, 37, 206);
+    background-color: burlywood;
+    padding: 20px;
 }
 .botao{
-    background-color: rgb(35, 69, 180);
+    text-decoration: none;
     color: white;
+    background-color: rgb(35, 69, 180);
     padding: 20px;
     border-radius: 10px;
-    text-decoration: none;
 }
 .botao:hover{
     background-color: green;
 }
 .pre{
     border: solid;
+    width: 500px;
+    height: 130px;
 }

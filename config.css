@@ -2,21 +2,20 @@
 body{
     text-align: right left center justify; /* direita esquerda centro estica*/
     text-decoration: none; /* retira risca abaixo da palavra*/
-    
-    color: aquamarine;    
-    
-    padding: 50px; /* afasta no geral internamente*/
-    padding-top: 50px; /* afasta internamente do topo*/
-    padding-right: 50px; /* afasta internamente da direita*/
-    padding-bottom: 50px; /* afasta internamente do fundo*/
-    padding-left: 50px; /* afasta internamente da esquerda*/
-    padding: 50px 50px 50px 50px; /* topo, direita, abaixo, esquerda*/
+    color: aquamarine; /* define cor*/
 
     background-color: lime; /* cor de fundo*/
     background-image: url(""); /* imagem de fundo */
     background-size: 100%; /* objeto ocupa todo espaço*/
     background-position: center; /* centraliza o objeto*/
     background: url("") center lime; /* juntamos 3 sem o size*/
+
+    padding: 50px; /* afasta no geral internamente*/
+    padding-top: 50px; /* afasta internamente do topo*/
+    padding-right: 50px; /* afasta internamente da direita*/
+    padding-bottom: 50px; /* afasta internamente do fundo*/
+    padding-left: 50px; /* afasta internamente da esquerda*/
+    padding: 50px 50px 50px 50px; /* topo, direita, abaixo, esquerda*/
 
     border: 1px; /* espessura da borda*/
     border-radius: 10px; /* bordas arredondadas*/
@@ -31,9 +30,11 @@ body{
     margin-right: 50px; /* afata da direita*/
     margin-bottom: 50px; /* afasta abaixo*/
     margin-left: 50px; /* afasta da esquerda*/
-    margin: 50px 50px 50px 50px /* topo, direita, abaixo, esquerda*/
+    margin: 50px 50px 50px 50px; /* topo, direita, abaixo, esquerda*/
 
-
+    width: 500px; /* define altura*/
+    height: 300px; /* define largura*/
+    max-width: 800px; /* defime um máximo de largura*/
     
     
 }

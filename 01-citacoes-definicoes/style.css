@@ -13,3 +13,6 @@ body{
     color: bisque;
     text-align: left;
 }
+mark{
+    background-color: rgb(255, 0, 191);
+}
