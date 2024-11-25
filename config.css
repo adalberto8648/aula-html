@@ -1,9 +1,17 @@
 
 body{
     text-align: right left center justify; /* direita esquerda centro estica*/
+    text-decoration: none; /* retira risca abaixo da palavra*/
     
     color: aquamarine;    
     
+    padding: 50px; /* afasta no geral internamente*/
+    padding-top: 50px; /* afasta internamente do topo*/
+    padding-right: 50px; /* afasta internamente da direita*/
+    padding-bottom: 50px; /* afasta internamente do fundo*/
+    padding-left: 50px; /* afasta internamente da esquerda*/
+    padding: 50px 50px 50px 50px; /* topo, direita, abaixo, esquerda*/
+
     background-color: lime; /* cor de fundo*/
     background-image: url(""); /* imagem de fundo */
     background-size: 100%; /* objeto ocupa todo espaço*/

@@ -12,3 +12,16 @@ body{
     background-color: burlywood;
     color: rgb(25, 37, 206);
 }
+.botao{
+    background-color: rgb(35, 69, 180);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.botao:hover{
+    background-color: green;
+}
+.pre{
+    border: solid;
+}
