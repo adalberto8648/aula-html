@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap'); /* link da fonte externa*/
 
 body{
     text-align: right left center justify; /* direita esquerda centro estica*/
@@ -14,6 +15,12 @@ body{
     line-height: 0.8; /* distancia uma linha da outra*/
     color: aquamarine; /* define cor*/
 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* tipo da fonte*/
+    font-size: 15px; /* tamanho da fonte*/
+    font-family: "Sevillana", cursive; /* fonte externa*/
+    font-style: italic; /* fonte itálico*/
+    font-weight: bold; /* fonte negrito pode ser numeração pra espessura*/
+    
     background-color: lime; /* cor de fundo*/
     background-image: url(""); /* imagem de fundo */
     background-size: 100%; /* objeto ocupa todo espaço*/
