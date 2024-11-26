@@ -1,7 +1,17 @@
 
 body{
     text-align: right left center justify; /* direita esquerda centro estica*/
-    text-decoration: none; /* retira risca abaixo da palavra*/
+    text-decoration: none; /* retira risco abaixo da palavra*/
+    text-decoration: overline; /* insere uma linha sobre o texto todo*/
+    text-decoration: line-through; /* risca todo o texto*/
+    text-decoration: underline; /* sublinha todo o texto*/
+    text-transform: uppercase; /* coloca todas palavras em maiúscula*/
+    text-transform: lowercase; /* coloca todas palavras em minúscula*/
+    text-transform: capitalize; /* coloca sempre a 1° palavra maiúscula*/
+    text-indent: 50px; /* recua formando parágrafo*/
+    letter-spacing: 5px; /* distancia as letras ou recua*/
+    word-spacing: 15px; /* distancia as palvras*/
+    line-height: 0.8; /* distancia uma linha da outra*/
     color: aquamarine; /* define cor*/
 
     background-color: lime; /* cor de fundo*/

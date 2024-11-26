@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+.titulo{
+    text-align: center;
+    color: rgb(5, 5, 124);
+    background-color:rgb(212, 139, 49);
+    padding: 10px;
+    border-radius: 50px;
+}
+.secao{
+    text-align: left;
+    color: bisque;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 50px;
+}
+mark{
+    background-color: rgb(255, 0, 191);
+}
+.botao{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(35,69,180);
+    padding: 20px;
+    border-radius: 10px;
+}
+.botao:hover{
+    background-color: green;
+}
