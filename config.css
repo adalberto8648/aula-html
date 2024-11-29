@@ -13,7 +13,7 @@ body{
     letter-spacing: 5px; /* distancia as letras ou recua*/
     word-spacing: 15px; /* distancia as palvras*/
     line-height: 0.8; /* distancia uma linha da outra*/
-    color: aquamarine; /* define cor*/
+    color: aquamarine; /* define cor do texto*/
 
     font-family: Verdana, Geneva, Tahoma, sans-serif; /* tipo da fonte*/
     font-size: 15px; /* tamanho da fonte*/
