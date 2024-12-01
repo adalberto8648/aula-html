@@ -33,6 +33,37 @@
             height: 300px;
             float: left;
         }
+        .menu1{
+            text-align: center;
+        }
+        .menu2{
+            text-align: center;
+            margin-top: 90px;
+        }
+        .nav{
+            text-align: center;
+        }
+        nav #a1{
+            background-color: aqua;
+            color: black;
+            padding: 5px 35px;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+        nav #a2{
+            background-color: rgb(7, 189, 189);
+            color: black;
+            padding: 5px 35px;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+        nav #a3{
+            background-color: rgb(4, 114, 114);
+            color: black;
+            padding: 5px 35px;
+            text-decoration: none;
+            border-radius: 10px;
+        }
         .iframe{
             background-color: darkgray;
             width: 50%;
@@ -47,13 +78,19 @@
     </header>
 
     <section class="menu">
-        <h2>Lista não ordenada</h2>
+        <h2 class="menu1">Lista não ordenada</h2>
             <ul>
                 <li><a href="01-citacoes-definicoes/citacoes-definicoes.html" target="iframe">Citações e Definições</a></li>
-                <li><a href="02 - formatacoes/formatacoes.html" target="iframe">Formatações</a></li>
+                <li><a href="02-formatacoes/formatacoes.html" target="iframe">Formatações</a></li>
                 <li><a href="config.css" target="iframe">CSS - Mais usados</a></li>
-                <li><a href="03-listas/listas.html" target="iframe">Listas</a></li>
             </ul>
+
+        <h2 class="menu2">Lista ordenada</h2>
+            <nav class="nav">
+                <a id="a1" href="03-listas/listas.html" target="iframe">Listas1</a>
+                <a id="a2" href="03-listas/listas.html" target="iframe">Listas2</a>
+                <a id="a3" href="03-listas/listas.html" target="iframe">Listas3</a>
+            </nav>
     </section>
 
     <section class="iframe">

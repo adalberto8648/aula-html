@@ -12,7 +12,6 @@
         *{
             box-sizing: border-box;
         }
-
         body{
             margin: 0;
         }
@@ -21,15 +20,40 @@
             padding: 20px 16px;
             text-align: center;
         }
-        .menu{
-            background-color: #333;
+        .menu1{
+            background-color: #c8e90e;
             overflow: hidden;
         }
-        .menu a{
+        .menu1 a{
             color: white;
             padding: 14px 16px;
             float: left;
             display: block;
+            text-decoration: none;
+        }
+        .menu2{
+            background-color: #c8e90e;
+            overflow: hidden;
+        }
+        .menu2 #a1{
+            background-color: aqua;
+            color: black;
+            padding: 5px 35px;
+            float: left;
+            text-decoration: none;
+        }
+        .menu2 #a2{
+            background-color:rgb(0, 204, 255);
+            color: black;
+            padding: 5px 35px;
+            float: left;
+            text-decoration: none;
+        }
+        .menu2 #a3{
+            background-color:cornflowerblue ;
+            color: black;
+            padding: 5px 35px;
+            float: left;
             text-decoration: none;
         }
         .coluna-50{
@@ -246,11 +270,18 @@
             <p>Aqui a parte do Topo</p>
         </header>
 
-        <nav class="menu">
+        <nav class="menu1">
             <a href="listas.htm">Link</a>
             <a href="listas.htm">Link</a>
             <a href="listas.htm">Link</a>
-            <a href="listas.htm">Link</a>
+        </nav>
+
+        <br>
+
+        <nav class="menu2">
+            <a id="a1" href="listas.htm">Link</a>
+            <a id="a2" href="listas.htm">Link</a>
+            <a id="a3" href="listas.htm">Link</a>
         </nav>
 
         <section class="coluna-50">

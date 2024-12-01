@@ -52,6 +52,14 @@ body{
     width: 500px; /* define altura*/
     height: 300px; /* define largura*/
     max-width: 800px; /* defime um máximo de largura*/
+
+    display: block; /* início da página até o final, div, h1 a h6, p, form, header, footer, section, ul, li*/
+    display: inline; /* fica em linha, uma do lado da outra, a href, span*/
+    display: none; /* fica ativo a parte do código, mas não aparece, nomear o item com id= e no style terá começo com #, tem efeito tbm tipo botão, passando o mouse encima do display ele pode sumir colocando exemplo #p:hover*/
+    display: inline-block; /* dá pra configurar o tamanho dos blocos*/
+    visibility: hidden; /* mostra o local oculto*/
+ 
+
     
     
 }
