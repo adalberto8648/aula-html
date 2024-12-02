@@ -58,6 +58,8 @@ body{
     display: none; /* fica ativo a parte do código, mas não aparece, nomear o item com id= e no style terá começo com #, tem efeito tbm tipo botão, passando o mouse encima do display ele pode sumir colocando exemplo #p:hover*/
     display: inline-block; /* dá pra configurar o tamanho dos blocos*/
     visibility: hidden; /* mostra o local oculto*/
+
+    
  
 
     
